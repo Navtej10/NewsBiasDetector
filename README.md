@@ -9,29 +9,6 @@ A simple Java Swing application that detects bias in news articles using keyword
 - Classification into Neutral, Slightly Biased, or Strongly Biased
 - Offline operation with no external dependencies
 
-## Requirements
-
-- Java JDK 11 or higher
-- Maven 3.6 or higher
-
-## How to Build
-
-```bash
-mvn clean compile
-```
-
-## How to Run
-
-```bash
-mvn exec:java
-```
-
-Or create a JAR file and run it:
-
-```bash
-mvn clean package
-java -jar target/news-source-bias-detector-1.0.0.jar
-```
 
 ## How to Use
 
