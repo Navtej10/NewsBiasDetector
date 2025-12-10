@@ -24,8 +24,8 @@ public class NewsSourceBiasDetectorApp extends JFrame {
         mainPanel.setLayout(new BorderLayout(10, 10));
         mainPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
-        JLabel titleLabel = new JLabel("News Article Bias Detector", SwingConstants.CENTER);
-        titleLabel.setFont(new Font("Arial", Font.BOLD, 18));
+        JLabel titleLabel = new JLabel("News Article Bias Detector", JLabel.CENTER);
+        titleLabel.setFont(new Font("Segoe UI", Font.BOLD, 28));
         mainPanel.add(titleLabel, BorderLayout.NORTH);
 
         JPanel centerPanel = new JPanel();
@@ -34,6 +34,7 @@ public class NewsSourceBiasDetectorApp extends JFrame {
         JPanel inputPanel = new JPanel();
         inputPanel.setLayout(new BorderLayout());
         JLabel inputLabel = new JLabel("Paste or type your news article here:");
+        inputLabel.setFont(new Font("Segoe UI", Font.BOLD, 18));
         inputTextArea = new JTextArea(10, 60);
         inputTextArea.setLineWrap(true);
         inputTextArea.setWrapStyleWord(true);
@@ -45,12 +46,13 @@ public class NewsSourceBiasDetectorApp extends JFrame {
         JPanel resultsPanel = new JPanel();
         resultsPanel.setLayout(new BorderLayout());
         JLabel resultsLabel = new JLabel("Analysis Results:");
+        resultsLabel.setFont(new Font("Segoe UI", Font.BOLD, 18));
         resultsTextArea = new JTextArea(10, 60);
         resultsTextArea.setLineWrap(true);
         resultsTextArea.setWrapStyleWord(true);
         resultsTextArea.setEditable(false);
         resultsTextArea.setFont(new Font("Monospaced", Font.PLAIN, 12));
-        resultsTextArea.setBackground(new Color(240, 240, 240));
+        resultsTextArea.setBackground(new Color(240, 240, 240, 255));
         JScrollPane resultsScrollPane = new JScrollPane(resultsTextArea);
         resultsPanel.add(resultsLabel, BorderLayout.NORTH);
         resultsPanel.add(resultsScrollPane, BorderLayout.CENTER);
@@ -63,7 +65,8 @@ public class NewsSourceBiasDetectorApp extends JFrame {
         buttonPanel.setLayout(new FlowLayout(FlowLayout.CENTER, 20, 10));
 
         analyzeButton = new JButton("Analyze");
-        analyzeButton.setFont(new Font("Arial", Font.BOLD, 14));
+        analyzeButton.setFont(new Font("Segoe UI", Font.BOLD, 14));
+        analyzeButton.setBackground(new Color(180, 182, 188, 255));
         analyzeButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -78,7 +81,8 @@ public class NewsSourceBiasDetectorApp extends JFrame {
         });
 
         clearButton = new JButton("Clear");
-        clearButton.setFont(new Font("Arial", Font.BOLD, 14));
+        clearButton.setFont(new Font("Segoe UI", Font.BOLD, 14));
+        clearButton.setBackground(new Color(180, 182, 188, 255));
         clearButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
