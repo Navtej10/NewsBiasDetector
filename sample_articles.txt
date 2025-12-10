@@ -1,23 +1,17 @@
 === SAMPLE ARTICLES FOR TESTING ===
 
---- NEUTRAL ARTICLE ---
-The city council met yesterday to discuss the proposed budget for the upcoming fiscal year.
-The meeting lasted three hours and included presentations from various department heads.
-Council members will vote on the budget next week. The budget totals $50 million and covers
-expenses for public services, infrastructure, and education.
+---Negative Biased---
+The city’s new traffic policy has turned daily commutes into a grinding ordeal for many residents, who now face longer delays and frequent gridlock. Critics say officials mismanaged the rollout, creating chaotic intersections and dangerous bottlenecks at peak hours. While authorities insist the situation is under control and will improve over time, frustrated commuters see a worsening mess and question whether leaders truly understand the impact of their decisions.
+Expected: “Slightly Biased” or “Strongly Biased” (negative).
 
---- SLIGHTLY BIASED ARTICLE ---
-The new healthcare policy was announced today by government officials. Supporters believe
-this policy will improve access to medical services. However, critics argue that the costs
-may be too high. The policy seems to address some concerns raised by healthcare professionals,
-but many questions remain unanswered about its implementation.
+---Positive Biased---
+A new public transit app has been widely praised for making commutes smoother and more efficient across the city. Supporters argue that the innovative design and excellent real-time tracking give riders a remarkably reliable experience compared to the previous system. Although some minor glitches remain, officials highlight strong progress and point to encouraging feedback as evidence that the project is a clear success.
+Expected: “Slightly Biased” (positive).
 
---- STRONGLY BIASED ARTICLE ---
-The terrible new policy is an absolute disaster that will cause devastating harm to millions
-of innocent people. This horrible decision clearly demonstrates the worst judgment imaginable.
-Critics are outraged by this catastrophic failure. Obviously, this controversial move threatens
-the entire system. Supporters claim benefits, but any reasonable person can see this is
-completely dishonest and untrustworthy. This crisis demands immediate action.
+---Neutral Biased---
+The city council approved a new traffic plan on Tuesday after a two-hour debate. The policy changes signal adjustments to signal timing and lane usage along three major routes. Officials said the plan will be evaluated over the next six months, and data on travel times will be published regularly for public review.
+Expected: "Neutral"
+
 
 === INSTRUCTIONS ===
 Copy any of the sample articles above and paste them into the application to see how
