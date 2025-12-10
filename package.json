@@ -1,0 +1,12 @@
+{
+  "name": "news-source-bias-detector",
+  "version": "1.0.0",
+  "description": "A simple Java Swing application to detect bias in news articles",
+  "scripts": {
+    "build": "echo 'Java project - use: mvn clean compile' && exit 0",
+    "start": "echo 'Java project - use: mvn exec:java' && exit 0"
+  },
+  "keywords": ["java", "swing", "bias-detection", "news"],
+  "author": "",
+  "license": "MIT"
+}

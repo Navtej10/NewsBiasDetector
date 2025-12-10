@@ -1,0 +1,25 @@
+=== SAMPLE ARTICLES FOR TESTING ===
+
+--- NEUTRAL ARTICLE ---
+The city council met yesterday to discuss the proposed budget for the upcoming fiscal year.
+The meeting lasted three hours and included presentations from various department heads.
+Council members will vote on the budget next week. The budget totals $50 million and covers
+expenses for public services, infrastructure, and education.
+
+--- SLIGHTLY BIASED ARTICLE ---
+The new healthcare policy was announced today by government officials. Supporters believe
+this policy will improve access to medical services. However, critics argue that the costs
+may be too high. The policy seems to address some concerns raised by healthcare professionals,
+but many questions remain unanswered about its implementation.
+
+--- STRONGLY BIASED ARTICLE ---
+The terrible new policy is an absolute disaster that will cause devastating harm to millions
+of innocent people. This horrible decision clearly demonstrates the worst judgment imaginable.
+Critics are outraged by this catastrophic failure. Obviously, this controversial move threatens
+the entire system. Supporters claim benefits, but any reasonable person can see this is
+completely dishonest and untrustworthy. This crisis demands immediate action.
+
+=== INSTRUCTIONS ===
+Copy any of the sample articles above and paste them into the application to see how
+the bias detector classifies them. Try modifying the articles by adding or removing
+emotional words to see how it affects the bias score.
