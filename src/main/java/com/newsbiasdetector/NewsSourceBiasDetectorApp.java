@@ -51,7 +51,7 @@ public class NewsSourceBiasDetectorApp extends JFrame {
         resultsTextArea.setLineWrap(true);
         resultsTextArea.setWrapStyleWord(true);
         resultsTextArea.setEditable(false);
-        resultsTextArea.setFont(new Font("Monospaced", Font.PLAIN, 12));
+        resultsTextArea.setFont(new Font("Arial", Font.PLAIN, 12));
         resultsTextArea.setBackground(new Color(240, 240, 240, 255));
         JScrollPane resultsScrollPane = new JScrollPane(resultsTextArea);
         resultsPanel.add(resultsLabel, BorderLayout.NORTH);
